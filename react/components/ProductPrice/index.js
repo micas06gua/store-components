@@ -112,15 +112,7 @@ const ProductPrice = (props, context) => {
     intl: { formatNumber },
   } = props
 
-  let { classes } = props
-
   const currencyOptions = useCurrencyOptions()
-
-  // avoiding undefined verifications
-  classes = {
-    ...PriceWithIntl.defaultProps.classes,
-    ...classes,
-  }
 
   if ((showListPrice && isNil(listPrice)) || isNil(sellingPrice)) {
     return <ProductPriceLoader loaderClass={loaderClass} {...styles} />
