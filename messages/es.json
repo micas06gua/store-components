@@ -121,6 +121,7 @@
   "admin/editor.image.description": "Mostrar cualquier imagen",
   "admin/editor.image.src.title": "Imagen",
   "admin/editor.image.alt.title": "Texto alternativo",
+  "admin/editor.image.href.title": "Enlace a",
   "admin/editor.product-images.title": "Product Images",
   "admin/editor.product-images.description": "El componente de imágenes del producto le permite personalizar las imágenes del producto",
   "admin/editor.product-images.zoomOptions.title": "Opciones de zoom",
