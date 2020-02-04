@@ -75,7 +75,7 @@ const Logo = ({
   )
 
   return href ? (
-    <Link to={href} className={handles.logoLink}>
+    <Link to={href} className={handles.logoLink} title={title}>
       {logo}
     </Link>
   ) : (
